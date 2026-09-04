@@ -7,7 +7,7 @@ import { InteractionHelper } from '../../utils/interactionHelper.js';
 
 export default {
     data: new SlashCommandBuilder()
-        .setName('bò')
+        .setName('cash')
         .setDescription("Check your or someone else's balance")
         .addUserOption(option =>
             option
@@ -60,7 +60,7 @@ export default {
             })
                 .addFields(
                     {
-                        name: "💵 Cash",
+                        name: "💵 bò",
                         value: `$${wallet.toLocaleString()}`,
                         inline: true,
                     },
