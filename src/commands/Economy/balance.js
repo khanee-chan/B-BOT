@@ -7,7 +7,7 @@ import { InteractionHelper } from '../../utils/interactionHelper.js';
 
 export default {
     data: new SlashCommandBuilder()
-        .setName('balance')
+        .setName('bò')
         .setDescription("Check your or someone else's balance")
         .addUserOption(option =>
             option
